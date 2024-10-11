@@ -16,7 +16,7 @@ html,body {
     height: 2.2rem;
     align-items: center;
     box-sizing: border-box;
-    background-color: #000000;
+    background-color: #111;
     justify-content: space-around;
     /* padding: 0px 15px 0px 15px; */
 }
@@ -87,9 +87,10 @@ html,body {
         color: #fff;
         margin-top: 5px;
         font-size: 13px;
+        font-weight: 550;
         border-radius: 3px;
         letter-spacing: 1px;
-        background-color: #000000;
+        background-color: #181818;
     }
 }
 #box-1-imgbox {
@@ -100,5 +101,79 @@ html,body {
         right: 5%;
         width: 40%;
         position: absolute;
+    }
+}
+#container-1 {
+    display: flex;
+    margin: 50px 25px;
+    align-items: center;
+    /* background-color: red;  */
+    justify-content: space-evenly;
+}
+.container-1-item {
+    width: 30%;
+    display: flex;
+    position: relative;
+    p {
+        left: 35%;
+        bottom: 2%;
+        color: #fff;
+        font-size: 15px;
+        visibility: hidden;
+        position: absolute;
+    }
+    img {
+        width: 100%;
+        border-radius: 30px;
+        transform: translateY(0);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    img:hover {
+        transform: translateY(-15px);
+        box-shadow: 20px 20px 30px rgba(0, 0, 0);
+    }
+}
+#heading {
+    margin-top: 9rem;
+    text-align: center;
+    /* background-color: red; */
+    h2 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+#container-2 {
+    display: flex;
+    margin: 50px 25px;
+    align-items: center;
+    /* background-color: red;  */
+    justify-content: space-evenly;
+}
+.container-2-item {
+    width: 20%;
+    display: flex;
+    position: relative;
+    p {
+        left: 35%;
+        bottom: 2%;
+        color: #fff;
+        font-size: 15px;
+        visibility: hidden;
+        position: absolute;
+    }
+    img {
+        width: 100%;
+        border-radius: 30px;
+        transform: translateY(0);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    img:hover {
+        transform: translateY(-15px);
+        box-shadow: 20px 20px 30px rgba(0, 0, 0);
     }
 }
